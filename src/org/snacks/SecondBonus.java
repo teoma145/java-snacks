@@ -11,7 +11,7 @@ public class SecondBonus {
         int secondiRimasti = secondi % (60*60);
         int minuti = secondiRimasti / 60;
         int secondiFinali = secondiRimasti % 60;
-        System.out.println(hours+":"+minuti+":"+secondiFinali);
+        System.out.println("tempo: "+hours+":"+minuti+":"+secondiFinali);
 
 
     }
