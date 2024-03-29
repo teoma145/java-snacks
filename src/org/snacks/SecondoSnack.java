@@ -7,7 +7,7 @@ public class SecondoSnack {
         String[] nomi={"Rossi","Verdi","Neri","Strong"};
         String[] cognomi= {"Matteo","Marco","Mirko","Mattia"};
         Random randomGenerator = new Random();
-         int RandomIndexname = randomGenerator.nextInt(nomi.length);
+        int RandomIndexname = randomGenerator.nextInt(nomi.length);
         int RandomIndexsurname = randomGenerator.nextInt(cognomi.length);
         String randomName = nomi[RandomIndexname];
         String randomSurname = cognomi[RandomIndexsurname];
